@@ -1,0 +1,30 @@
+#smille {
+    animation: rotation 1.0s linear;
+    transform-origin: center;
+  }
+  
+
+  #S {
+    animation: rotation 1.2s linear;
+    transform-origin:center;
+  }
+
+  #P {
+    animation: rotation 1.4s linear;
+    transform-origin:center;
+  }
+
+  #I {
+    animation: rotation 1.6s linear;
+    transform-origin:center;
+  }
+
+  #N {
+    animation: rotation 1.8s linear;
+    transform-origin:center;
+  }
+
+  @keyframes rotation {
+    from  { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+  }

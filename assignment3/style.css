@@ -1,0 +1,23 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+    
+main {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        font-style: normal;
+        text-align: center;
+        margin-top:100px;
+        grid-column: span 12;
+        background-color: #93C4FF ;
+      }
+
+body{
+    background-color: #93C4FF;
+}
+      

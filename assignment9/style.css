@@ -1,0 +1,140 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.floatimg {
+    float: left;
+    width: 250px;
+    margin-right: 40px;
+    border: 3px solid #991EB7;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+header {
+    grid-column: span 12;
+}
+
+nav {
+    grid-column: span 12;
+    
+}
+       
+main {
+    grid-column: span 12; 
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+footer {
+    grid-column: span 12;
+    color: white;
+    background-color: #CD81E0;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 24px;
+    border: 4px solid #CD81E0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+    margin-top: 10px;
+}
+
+footer a {
+  color:#991EB7;
+}
+
+
+h1 {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: white;
+    background-color: #CD81E0;
+    font-size: 35px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    border: 4px solid #CD81E0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+h1 a {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ nav li{
+     border: 1px;
+     width: 270px;
+     margin: 5px;
+     background-color: #CD81E0;
+     
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px #999;
+     display: inline-block;
+ }
+ 
+ nav li a {
+    font-family: 'Edu TAS Beginner', cursive;
+     color: white;
+     font-size: 30px;
+     text-decoration: none;
+     padding: 15px;
+     background-color: #CD81E0;
+     border: 4px solid #CD81E0;
+     border-radius: 10px;
+     text-align: center;
+     transition: all 2.0s;
+     display: block;
+ }
+ 
+ nav li a:hover {
+     background-color: #991EB7;
+     border: 4px solid #991EB7;
+     border-radius: 10px;   
+ }
+
+.active {
+    background-color: #991EB7;
+    border: 4px solid #991EB7;
+}
+
+ body {
+    background-color: #E1C5F1;
+ }
+
+ .video {
+    align-items: center;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+ }
+
+ h2 {
+    border-bottom: 5px solid #991EB7;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    padding-bottom: 5px;
+ }
+
+ #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+  }
